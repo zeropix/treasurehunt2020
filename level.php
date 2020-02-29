@@ -21,7 +21,7 @@ $lvl1->type = "image";
 $lvl1->question = "Solve the puzzle and find the hidden word using the highlighted boxes-";
 $lvl1->bgImg = "url('assets/img/qbg1.jpg')";
 $lvl1->key = "bitesys";
-$lvl1->questionImg = array("Q1.png");
+$lvl1->questionImg = array("Q1.PNG");
 $lvl1->color = "black";
 $lvl1->fontweight = "800";
 $lvl1->fontsize = "20px";
@@ -33,7 +33,7 @@ $lvl2->type = "image";
 $lvl2->question = "Find the sports personality.";
 $lvl2->bgImg = "url('assets/img/qbg10.png')";
 $lvl2->key = "roger federer";
-$lvl2->questionImg = array("q101.png","q102.png","q103.png");
+$lvl2->questionImg = array("q101.PNG","q102.PNG","q103.PNG");
 $lvl2->color = "black";
 
 $lvl3 = new Level();
@@ -53,7 +53,7 @@ $lvl4->type = "image";
 $lvl4->question = "Find me";
 $lvl4->bgImg = "url('assets/img/qbg4.jpg')";
 $lvl4->key = "fidel castro";
-$lvl4->questionImg = array("q41.png","q42.jpg");
+$lvl4->questionImg = array("q41.PNG","q42.jpg");
 $lvl4->color = "white";
 
 $lvl5 = new Level();
@@ -144,7 +144,7 @@ $lvl11->type = "image";
 $lvl11->question = "Find the TV show";
 $lvl11->bgImg = "url('assets/img/qbg11.png')";
 $lvl11->key = "the simpsons";
-$lvl11->questionImg = array("q111.png","q112.png","q113.png","q114.png","q115.png");
+$lvl11->questionImg = array("q111.PNG","q112.PNG","q113.PNG","q114.PNG","q115.PNG");
 $lvl11->color = "black";
 
 $lvl11_1 = new Level();
@@ -154,7 +154,7 @@ $lvl11_1->type = "image";
 $lvl11_1->question = "Find the movie";
 $lvl11_1->bgImg = "url('assets/img/qbg12.jpg')";
 $lvl11_1->key = "cast away";
-$lvl11_1->questionImg = array("q121.png","q122.jpg","q123.png");
+$lvl11_1->questionImg = array("q121.PNG","q122.jpg","q123.PNG");
 $lvl11_1->color = "white";
 
 $lvl11_2 = new Level();
@@ -375,7 +375,7 @@ $lvl24->type = "image";
 $lvl24->question = "Find the movie";
 $lvl24->bgImg = "url('assets/img/qbg14.jpg')";
 $lvl24->key = "minsara kanna";
-$lvl24->questionImg = array("q141.png","q142.jpg","q143.png","q144.png");
+$lvl24->questionImg = array("q141.PNG","q142.jpg","q143.PNG","q144.PNG");
 $lvl24->color = "black";
 
 
@@ -386,7 +386,7 @@ $lvl24->type = "image";
 $lvl24->question = "Its not like the others";
 $lvl24->bgImg = "url('assets/img/whitebg.jpg')";
 $lvl24->key = "i luv encryption";
-$lvl24->questionImg = array("29a.jpg","29c.png");
+$lvl24->questionImg = array("29a.jpg","29c.PNG");
 $lvl24->color = "black";*/
 
 $lvl29 = new Level();
@@ -483,7 +483,7 @@ $lvlc->type = "image";
 $lvlc->question = 'Identify the movie';
 $lvlc->bgImg = "url('assets/img/qbg48.jpg')";
 $lvlc->key = "moulin rouge";
-$lvlc->questionImg = array("q481.jpg","q482.png","q483.jpg","q484.jpg");
+$lvlc->questionImg = array("q481.jpg","q482.PNG","q483.jpg","q484.jpg");
 $lvlc->color = "white";
 
 $lvld = new Level();
@@ -562,7 +562,7 @@ $lvlEnd->type = "image";
 $lvlEnd->question = "Find the director";
 $lvlEnd->bgImg = "url('assets/img/whitebg.jpg')";
 $lvlEnd->key = "vetrimaaran";
-$lvlEnd->questionImg = array("q411.png","q412.png","q413.png","q414.png");
+$lvlEnd->questionImg = array("q411.PNG","q412.PNG","q413.PNG","q414.PNG");
 $lvlEnd->color = "black";
 
 $lvli = new Level();
@@ -572,7 +572,7 @@ $lvli->type = "image";
 $lvli->question = "Find the product";
 $lvli->bgImg = "url('assets/img/qbg9.jpg')";
 $lvli->key = "samsung galaxy s10";
-$lvli->questionImg = array("q91.png","q92.png","q93.png","q94.png");
+$lvli->questionImg = array("q91.PNG","q92.PNG","q93.PNG","q94.PNG");
 $lvli->color = "white";
 
 
@@ -584,7 +584,7 @@ $lvlj->type = "image";
 $lvlj->question = "Decode!!";
 $lvlj->bgImg = "url('assets/img/qbg43.jpg')";
 $lvlj->key = "byte";
-$lvlj->questionImg =  array("q431.png","q432.png","q433.png","q434.png");
+$lvlj->questionImg =  array("q431.PNG","q432.PNG","q433.PNG","q434.PNG");
 $lvlj->color = "white";
 
 $lvlk = new Level();
