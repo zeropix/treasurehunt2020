@@ -376,7 +376,7 @@ $lvl24->question = "Find the movie";
 $lvl24->bgImg = "url('assets/img/qbg14.jpg')";
 $lvl24->key = "minsara kanna";
 $lvl24->questionImg = array("q141.PNG","q142.jpg","q143.PNG","q144.PNG");
-$lvl24->color = "white";
+$lvl24->color = "black";
 
 
 /*$lvl24 = new Level();
