@@ -485,7 +485,7 @@ $lvlc->type = "image";
 $lvlc->question = 'Identify the movie';
 $lvlc->bgImg = "url('assets/img/qbg48.jpg')";
 $lvlc->key = "moulin rouge";
-$lvlc->questionImg = array("q481.jpg","q482.PNG","q483.jpg","q484.jpg");
+$lvlc->questionImg = array("q481.jpg","q482.png","q483.jpg","q484.jpg");
 $lvlc->color = "white";
 
 $lvld = new Level();
