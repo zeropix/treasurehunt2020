@@ -21,23 +21,24 @@ $lvl1->type = "image";
 $lvl1->question = "Solve the puzzle and find the hidden word using the highlighted boxes-";
 $lvl1->bgImg = "url('assets/img/qbg1.jpg')";
 $lvl1->key = "bitesys";
-$lvl1->questionImg = array("Q1.PNG");
+$lvl1->questionImg = array("Q1.jpeg");
 $lvl1->color = "black";
 $lvl1->fontweight = "800";
 $lvl1->fontsize = "20px";
 
+
 $lvl2 = new Level();
-$lvl2->lvlHead = "Level 2: Maze of Riddles - 1st Floor";
+$lvl2->lvlHead = "Level 2";
 $lvl2->lvl = "2";
 $lvl2->type = "image";
-$lvl2->question = "Find the sports personality.";
-$lvl2->bgImg = "url('assets/img/qbg10.png')";
-$lvl2->key = "roger federer";
-$lvl2->questionImg = array("q101.PNG","q102.PNG","q103.PNG");
-$lvl2->color = "black";
+$lvl2->question = "Denken!!";
+$lvl2->bgImg = "url('assets/img/qbg28.jpg')";
+$lvl2->key = "university of southern california";
+$lvl2->questionImg = array("q2.jpeg");
+$lvl2->color = "white";
 
 $lvl3 = new Level();
-$lvl3->lvlHead = "Level 3: Maze of Riddles - 2nd Floor";
+$lvl3->lvlHead = "Level 3";
 $lvl3->lvl = "3";
 $lvl3->type = "basic";
 $lvl3->question = "I can bend it like Beckham with my left foot but I always get left back in the squad. Guess the player?";
@@ -46,15 +47,16 @@ $lvl3->key = "roberto carlos";
 $lvl3->questionImg =  null;
 $lvl3->color = "white";
 
+// 4
 $lvl4 = new Level();
-$lvl4->lvlHead = "Level 4: Maze of Riddles - 3rd Floor";
+$lvl4->lvlHead = "Level 4";
 $lvl4->lvl = "4";
 $lvl4->type = "image";
-$lvl4->question = "Find me";
-$lvl4->bgImg = "url('assets/img/qbg4.jpg')";
-$lvl4->key = "fidel castro";
-$lvl4->questionImg = array("q41.PNG","q42.jpg");
-$lvl4->color = "white";
+$lvl4->question = "Find the sports personality.";
+$lvl4->bgImg = "url('assets/img/qbg10.png')";
+$lvl4->key = "roger federer";
+$lvl4->questionImg = array("q101.PNG","q102.PNG","q103.PNG");
+$lvl4->color = "black";
 
 $lvl5 = new Level();
 $lvl5->lvlHead = "Level 5";
@@ -67,7 +69,7 @@ $lvl5->questionImg = null;
 $lvl5->color = "white";
 
 $lvl6 = new Level();
-$lvl6->lvlHead = "Level 6: ";
+$lvl6->lvlHead = "Level 6 ";
 $lvl6->lvl = "6";
 $lvl6->type = "basic";
 $lvl6->question = "I have long legs and neck. There was a movie about me a few years ago and another one will be out soon. When a German is surprised, they ask someone to fry me. Who am I?";
@@ -78,7 +80,7 @@ $lvl6->color = "black";
 $lvl6->class = "";
 
 $lvl7 = new Level();
-$lvl7->lvlHead = "Level 7: ";
+$lvl7->lvlHead = "Level 7 ";
 $lvl7->lvl = "7";
 $lvl7->type = "basic";
 $lvl7->question = "I am the possessor of power but often fought someone who always said 'Power'. Taz devil and I have something in common. Many kids loved me and had my face tattooed on themselves. You might have missed me all these years but you will soon be able to see my three dimensional self. Who am I?";
@@ -88,14 +90,16 @@ $lvl7->questionImg = null;
 $lvl7->color = "white";
 
 $lvl8 = new Level();
-$lvl8->lvlHead = "Level 8: ";
+$lvl8->lvlHead = "Level 8";
 $lvl8->lvl = "8";
 $lvl8->type = "image";
-$lvl8->question = "Find the show";
-$lvl8->bgImg = "url('assets/img/qbg8.jpg')";
-$lvl8->key = "boruto";
-$lvl8->questionImg = array("q81.jpeg","q82.jpeg","q83.jpeg");
+$lvl8->question = "Verbinden!!";
+$lvl8->bgImg = "url('assets/img/qbg08.jpg')";
+$lvl8->key = "rock bands";
+$lvl8->questionImg = array("q081.png","q082.png","q083.png","q084.png");
 $lvl8->color = "white";
+
+
 
 // $lvl8 = new Level();
 // $lvl8->lvl = "8";
@@ -120,16 +124,14 @@ $lvl9->color = "white";
 // $lvl9->filename = "levels/shadowHidden_lvl.php";
 
 $lvl10 = new Level();
-$lvl10->lvlHead = "Level 10:";
+$lvl10->lvlHead = "Level 10";
 $lvl10->lvl = "10";
-$lvl10->type = "basic";
-$lvl10->question = "My great grandfather was a famous Indian personality who also wrote a lot, and his collected works have more than 50000 pages. Being the great-grandson of this personality, I’ve acted a movie a few decades back. Find me and the movie. ";
-$lvl10->bgImg = "url('assets/img/qbg2.jpg')";
-$lvl10->key = "tushar gandhi hey ram";
-$lvl10->questionImg = null;
-$lvl10->color = "white";
-
-
+$lvl10->type = "image";
+$lvl10->question = "This was the final blow to the losing team in a high voltage game played between 2 neighbours. Who scored this goal?";
+$lvl10->bgImg = "url('assets/img/qbg56.jpg')";
+$lvl10->key = "hector castro";
+$lvl10->questionImg = array("q56.png");
+$lvl10->color = "black";
 
 // $lvl10 = new Level();
 // $lvl10->lvl = "10";
@@ -138,7 +140,7 @@ $lvl10->color = "white";
 // $lvl10->filename = "levels/title_lvl.php";
 
 $lvl11 = new Level();
-$lvl11->lvlHead = "Level 11: Valley of Images - 1st floor";
+$lvl11->lvlHead = "Level 11";
 $lvl11->lvl = "11";
 $lvl11->type = "image";
 $lvl11->question = "Find the TV show";
@@ -148,7 +150,7 @@ $lvl11->questionImg = array("q111.PNG","q112.PNG","q113.PNG","q114.PNG","q115.PN
 $lvl11->color = "black";
 
 $lvl11_1 = new Level();
-$lvl11_1->lvlHead = "Level 12: Valley of Images - 2nd FLoor";
+$lvl11_1->lvlHead = "Level 12";
 $lvl11_1->lvl = "12";
 $lvl11_1->type = "image";
 $lvl11_1->question = "Find the movie";
@@ -209,7 +211,7 @@ $lvl13->questionImg = null;
 $lvl13->color = "black";
 
 $lvl14 = new Level();
-$lvl14->lvlHead = "Level 17: Valley of Images - 7th Floor";
+$lvl14->lvlHead = "Level 17";
 $lvl14->lvl = "17";
 $lvl14->type = "image";
 $lvl14->question = "I have played along with the following players! Find me";
@@ -219,19 +221,17 @@ $lvl14->questionImg = array("q171.jpg","q172.jpg","q173.jpg","q174.jpg");
 $lvl14->color = "black";
 
 $lvl15 = new Level();
-$lvl15->lvlHead = "Level 18: Valley of Images - 8th Floor";
+$lvl15->lvlHead = "Level 18";
 $lvl15->lvl = "18";
-$lvl15->type = "basic";
-$lvl15->question = "I once survived brutal thrashing by warriors to secure the antidote in order to save a 16th century Anatomist who is related to this expression 43 47↑11 15→
-Who am I??
-";
-$lvl15->bgImg = "url('assets/img/qbg18.jpg')";
-$lvl15->key = "girolamo riario";
-$lvl15->questionImg = null;
+$lvl15->type = "image";
+$lvl15->question = "Find me";
+$lvl15->bgImg = "url('assets/img/qbg4.jpg')";
+$lvl15->key = "fidel castro";
+$lvl15->questionImg = array("q41.PNG","q42.jpg");
 $lvl15->color = "white";
 
 $lvl16 = new Level();
-$lvl16->lvlHead = "Level 19: Valley of Images - 8th Floor";
+$lvl16->lvlHead = "Level 19";
 $lvl16->lvl = "19";
 $lvl16->type = "basic";
 $lvl16->question = "I am a kid from a state in US which educated a guy who later won the Nobel Prize in Physiology.
@@ -245,12 +245,14 @@ $lvl16->color = "white";
 $lvl17 = new Level();
 $lvl17->lvlHead = "Level 20";
 $lvl17->lvl = "20";
-$lvl17->type = "basic";
-$lvl17->question = "Play fair. Honesty is the key to perseverance";
-$lvl17->bgImg = "url('assets/img/qbg20.jpg')";
-$lvl17->key = "qnkzoxsqnwbs";
-$lvl17->questionImg = null;
-$lvl17->color = "white";
+$lvl17->type = "image";
+$lvl17->question = "What do the following share in common?";
+$lvl17->bgImg = "url('assets/img/qbg52.jpg')";
+$lvl17->key = "brazil border";
+$lvl17->questionImg = array("q521.png","q522.png","q523.png","q524.png");
+$lvl17->color = "black";
+
+
 
 /*$lvl17 = new Level();
 $lvl17->lvlHead = "Level 19: Valley of Images - 9th Floor";
@@ -446,25 +448,25 @@ $lvlz->color = "white";
 // $lvlz->color = "white";
 
 $lvla = new Level();
-$lvla->lvlHead = "Level 33";
+$lvla->lvlHead = "Level 33 ";
 $lvla->lvl = "33";
-$lvla->type = "basic";
-$lvla->question = "The lead characters from these two series are addicted to narcotics, solve cases and love music.  One is based on the other, who would that be?";
-$lvla->bgImg = "url('assets/img/qbg33.jpg')";
-$lvla->key = "gregory house";
-$lvla->questionImg = null;
+$lvla->type = "image";
+$lvla->question = "Find the show";
+$lvla->bgImg = "url('assets/img/qbg8.jpg')";
+$lvla->key = "boruto";
+$lvla->questionImg = array("q81.jpeg","q82.jpeg","q83.jpeg");
 $lvla->color = "white";
-
 
 $lvlb = new Level();
 $lvlb->lvlHead = "Level 34";
 $lvlb->lvl = "34";
 $lvlb->type = "basic";
-$lvlb->question = "gimlwp pn mfdgsutxamf bxgzlgmwzc<br>cipher";
-$lvlb->bgImg = "url('assets/img/qbg34.jpg')";
-$lvlb->key = "claude elwood shannon";
+$lvlb->question = "The lead characters from these two series are addicted to narcotics, solve cases and love music.  One is based on the other, who would that be?";
+$lvlb->bgImg = "url('assets/img/qbg33.jpg')";
+$lvlb->key = "gregory house";
 $lvlb->questionImg = null;
-$lvlb->color = "black";
+$lvlb->color = "white";
+
 
 // $lvlb = new Level();
 // $lvlb->lvlHead = "Level 34";
@@ -489,14 +491,12 @@ $lvlc->color = "white";
 $lvld = new Level();
 $lvld->lvlHead = "Level 36";
 $lvld->lvl = "36";
-$lvld->type = "basic";
-$lvld->question = "This character played the role of a bisexual in a series and later acted in another series where he/she was referred using a number.  
-Guess the actor’s name.";
-$lvld->bgImg = "url('assets/img/qbg36.jpg')";
-$lvld->key = "olivia wilde";
-$lvld->questionImg = null;
-$lvld->color = "white";
-
+$lvld->type = "image";
+$lvld->question = "What’s missing among the following?";
+$lvld->bgImg = "url('assets/img/qbg51.jpg')";
+$lvld->key = "e";
+$lvld->questionImg = array("q511.png","q512.png","q513.png","q514.png");
+$lvld->color = "black";
 
 $lvle = new Level();
 $lvle->lvlHead = "Level 37";
@@ -541,19 +541,15 @@ $lvlg->key = "yahoo";
 $lvlg->questionImg = null;
 $lvlg->color = "white";
 
-
 $lvlh = new Level();
 $lvlh->lvlHead = "Level 40";
 $lvlh->lvl = "40";
 $lvlh->type = "basic";
-$lvlh->question = "You have 999 cakes, one of which is rotten. 
-You would like to find out which cake is rotten by making a few men eat the cake. 
-A cake can be divided into as many as 999 slices and if a man eats a slice of rotten cake, he would die in 10 mins.
-A man can eat more than 1 slice. What are the minimum number of men that are required through which you’ll be able to find out the rotten cake in 10 mins?";
-$lvlh->bgImg = "url('assets/img/qbg40.jpg')";
-$lvlh->key = "10";
+$lvlh->question = "My great grandfather was a famous Indian personality who also wrote a lot, and his collected works have more than 50000 pages. Being the great-grandson of this personality, I’ve acted a movie a few decades back. Find me and the movie.";
+$lvlh->bgImg = "url('assets/img/qbg2.jpg')";
+$lvlh->key = "tushar gandhi hey ram";
 $lvlh->questionImg =  null;
-$lvlh->color = "black";
+$lvlh->color = "white";
 
 $lvlEnd = new Level();
 $lvlEnd->lvlHead = "Level 41";
@@ -591,23 +587,22 @@ $lvlk = new Level();
 $lvlk->lvlHead = "Level 44";
 $lvlk->lvl = "44";
 $lvlk->type = "basic";
-$lvlk->question = 'An insect mutation was named after one of the main characters of this show.  Name the TV show. (Clue: The character name was also part of the former name of a famous TV series)';
-$lvlk->bgImg = "url('assets/img/qbg44.jpg')";
-$lvlk->key = "south park";
+$lvlk->question = 'I once survived brutal thrashing by warriors to secure the antidote in order to save a 16th century Anatomist who is related to this expression 43 47↑11 15→
+Who am I??';
+$lvlk->bgImg = "url('assets/img/qbg18.jpg')";
+$lvlk->key = "girolamo riario";
 $lvlk->questionImg = null;
 $lvlk->color = "white";
 
 $lvln = new Level();
 $lvln->lvlHead = "Level 45";
 $lvln->lvl = "45";
-$lvln->type = "basic";
-$lvln->question = 'The host of this famous talk show divorced her spouse and they have an age difference of 15 years.  Name the show.';
-$lvln->bgImg = "url('assets/img/whitebg.jpg')";
-$lvln->key = "the ellen degeneres show";
-$lvln->questionImg = null;
+$lvln->type = "image";
+$lvln->question = "What common thing did the following win?";
+$lvln->bgImg = "url('assets/img/qbg50.png')";
+$lvln->key = "popular vote";
+$lvln->questionImg = array("q501.png","q502.png","q503.png","q504.png");
 $lvln->color = "black";
-
-
 
 $lvlaa = new Level();
 $lvlaa->lvlHead = "Level 46";
@@ -647,16 +642,14 @@ $lvlaaa = new Level();
 $lvlaaa->lvlHead = "Level 48";
 $lvlaaa->lvl = "48";
 $lvlaaa->type = "basic";
-$lvlaaa->question = "X was born after India got its independence and got elected as the 997th leader of a group. X was also a part of an action thriller film directed by a software engineer whose short film has received an award. Name X, the short film and the action thriller.";
-$lvlaaa->bgImg = "url('assets/img/qbg35.jpg')";
-$lvlaaa->key = "james ronald gordon copeland mbe kaatchipizhai jagamae thandhiram";
+$lvlaaa->question = "What links these symbols- Ω, و , 위 , วิ , ವಿ , И , ཝི ?";
+$lvlaaa->bgImg = "url('assets/img/qbg53.jpg')";
+$lvlaaa->key = "wikipedia";
 $lvlaaa->questionImg = null;
 $lvlaaa->color = "white";
 
-
-
 $lvl_49 = new Level();
-$lvl_49->lvlHead = "Level 49: Maze of Riddles - 2nd Floor";
+$lvl_49->lvlHead = "Level 49";
 $lvl_49->lvl = "49";
 $lvl_49->type = "basic";
 $lvl_49->question = "X, who retired from screen acting a few years ago, had appeared in a television series in which his/her character portrayal was partially inspired by the portrayal of a film character Y that was considered deliciously creepy perversity by some. Find X and Y.";
@@ -665,17 +658,126 @@ $lvl_49->key = "jack gleeson commodus";
 $lvl_49->questionImg = null;
 $lvl_49->color = "white";
 
-
-
 $lvl50 = new Level();
+$lvl50->lvlHead = "Level 50";
 $lvl50->lvl = "50";
-$lvl50->type = "custom";
-$lvl50->bgImg = "url('assets/img/whitebg.jpg')";
-$lvl50->key = "voidimg15img14img13img12img11img10img9img8img7img6img5img4img3img2img1";
-$lvl50->filename = "levels/puzzle_lvl.php";
+$lvl50->type = "image";
+$lvl50->question = "What’s common among the following?";
+$lvl50->bgImg = "url('assets/img/qbg54.jpg')";
+$lvl50->key = "teenage mutant ninja turtles";
+$lvl50->questionImg = array("q541.png","q542.png","q543.png","q544.png");
+$lvl50->color = "black";
+
+$lvl51 = new Level();
+$lvl51->lvlHead = "Level 51";
+$lvl51->lvl = "51";
+$lvl51->type = "basic";
+$lvl51->question = "I have been/am a teammate of Cristiano Ronaldo, Lionel Messi, Radamel Falcao, Mesut Ozil and David Luiz.";
+$lvl51->bgImg = "url('assets/img/qbg57.jpg')";
+$lvl51->key = "angel di maria";
+$lvl51->questionImg = null;
+$lvl51->color = "black";
+
+$lvl52 = new Level();
+$lvl52->lvlHead = "Level 52";
+$lvl52->lvl = "52";
+$lvl52->type = "basic";
+$lvl52->question = "I have played with Adebayor, Messi, Didier Deschamps and Zidane. Identify the player";
+$lvl52->bgImg = "url('assets/img/qbg58.jpg')";
+$lvl52->key = "thierry henry";
+$lvl52->questionImg = null;
+$lvl52->color = "white";
+
+$lvl53 = new Level();
+$lvl53->lvlHead = "Level 53";
+$lvl53->lvl = "53";
+$lvl53->type = "image";
+$lvl53->question = "Find the connection!";
+$lvl53->bgImg = "url('assets/img/qbg053.jpeg')";
+$lvl53->key = "birds";
+$lvl53->questionImg = array("q0531.png","q0532.png","q0533.png","q0534.png");
+$lvl53->color = "white";
+
+$lvl54 = new Level();
+$lvl54->lvlHead = "Level 54";
+$lvl54->lvl = "54";
+$lvl54->type = "image";
+$lvl54->question = "Find the connection! Hint: NOT BIRD!!";
+$lvl54->bgImg = "url('assets/img/qbg054.jpeg')";
+$lvl54->key = "english football clubs";
+$lvl54->questionImg = array("q0541.png","q0542.png","q0543.png","q0544.png");
+$lvl54->color = "black";
+
+$lvl55 = new Level();
+$lvl55->lvlHead = "Level 55";
+$lvl55->lvl = "55";
+$lvl55->type = "basic";
+$lvl55->question = "X was born after India got its independence and got elected as the 997th leader of a group. X was also a part of an action thriller film directed by a software engineer whose short film has received an award. Name X, the short film and the action thriller.";
+$lvl55->bgImg = "url('assets/img/qbg35.jpg')";
+$lvl55->key = "james ronald gordon copeland mbe kaatchipizhai jagamae thandhiram";
+$lvl55->questionImg = null;
+$lvl55->color = "white";
+
+$lvl56 = new Level();
+$lvl56->lvlHead = "Level 56";
+$lvl56->lvl = "56";
+$lvl56->type = "basic";
+$lvl56->question = "Play fair. Honesty is the key to perseverance";
+$lvl56->bgImg = "url('assets/img/qbg20.jpg')";
+$lvl56->key = "qnkzoxsqnwbs";
+$lvl56->questionImg = null;
+$lvl56->color = "white";
+
+$lvl57 = new Level();
+$lvl57->lvlHead = "Level 57";
+$lvl57->lvl = "57";
+$lvl57->type = "image";
+$lvl57->question = "What is common among the following?";
+$lvl57->bgImg = "url('assets/img/qbg55.jpg')";
+$lvl57->key = "sherlock holmes";
+$lvl57->questionImg = array("q551.png","q552.png","q553.png");
+$lvl57->color = "white";
+
+$lvl58 = new Level();
+$lvl58->lvlHead = "Level 58";
+$lvl58->lvl = "58";
+$lvl58->type = "basic";
+$lvl58->question = "gimlwp pn mfdgsutxamf bxgzlgmwzc<br>cipher";
+$lvl58->bgImg = "url('assets/img/qbg34.jpg')";
+$lvl58->key = "claude elwood shannon";
+$lvl58->questionImg = null;
+$lvl58->color = "black";
+
+$lvl59 = new Level();
+$lvl59->lvlHead = "Level 59";
+$lvl59->lvl = "59";
+$lvl59->type = "basic";
+$lvl59->question = "This character played the role of a bisexual in a series and later acted in another series where he/she was referred using a number.  
+Guess the actor’s name.";
+$lvl59->bgImg = "url('assets/img/qbg36.jpg')";
+$lvl59->key = "olivia wilde";
+$lvl59->questionImg = null;
+$lvl59->color = "white";
+
+$lvl60 = new Level();
+$lvl60->lvlHead = "Level 60";
+$lvl60->lvl = "60";
+$lvl60->type = "basic";
+$lvl60->question = 'The host of this famous talk show divorced her spouse and they have an age difference of 15 years.  Name the show.';
+$lvl60->bgImg = "url('assets/img/whitebg.jpg')";
+$lvl60->key = "the ellen degeneres show";
+$lvl60->questionImg = null;
+$lvl60->color = "black";
+
+$lvl61 = new Level();
+$lvl61->lvl = "61";
+$lvl61->type = "custom";
+$lvl61->bgImg = "url('assets/img/whitebg.jpg')";
+$lvl61->key = "voidimg15img14img13img12img11img10img9img8img7img6img5img4img3img2img1";
+$lvl61->filename = "levels/puzzle_lvl.php";
 
 $endFinal = new Level();
-$endFinal->lvl = "51";
+$endFinal->lvl = "62";
 $endFinal->type = "endFinal";
 $endFinal->key = "qwe";
 $endFinal->color = "white";
@@ -687,6 +789,6 @@ $endFinal->color = "white";
 
 $levels = array("",$lvl1,$lvl2,$lvl3,$lvl4,$lvl5,$lvl6,$lvl7,$lvl8,$lvl9,$lvl10,$lvl11,$lvl11_1,$lvl11_2,$lvl11_3,
 $lvl12,$lvl13,$lvl14,$lvl15,$lvl16,$lvl17,$lvl18,$lvl19,$lvl20,$lvl21_1,$lvl22_2,$lvl21,$lvl22,$lvl23,$lvl24,$lvl29,$lvl30,$lvlz,$lvla,$lvlb,$lvlc,$lvld,$lvle,$lvlf,
-$lvlg,$lvlh,$lvlEnd,$lvli,$lvlj,$lvlk,$lvln,$lvlaa, $lvl48, $lvlaaa,$lvl_49,$lvl50, $endFinal);
+$lvlg,$lvlh,$lvlEnd,$lvli,$lvlj,$lvlk,$lvln,$lvlaa, $lvl48, $lvlaaa,$lvl_49,$lvl50,$lvl51,$lvl52,$lvl53,$lvl54,$lvl55,$lvl56,$lvl57,$lvl58,$lvl59,$lvl60,$lvl61, $endFinal);
 
 ?>

@@ -22,14 +22,14 @@
 <li>Each participant will initially start from the level 1.</li>
 <li>Level may consist of a puzzle, or a task to be performed to reach next level.</li>
 <li style="font-weight: 700">Input answers in lowercase and use only space as a separator(no commas).</li>
-<li>Some levels may have hints which participants have to deduce. It may or may not be related to the background image.</li>
+<li>Some levels may have hints which participants have to deduce.</li>
 <li>Participant may use any means to clear a level, except breaking into the platform.</li>
 <li>Participant completing the maximum number of levels will be declared winner. Incase of tie, participant completing first will be the winner.</li>
 <li>Participants can view the current top 10 players in the "Leader Board" link given on top right corner.</li>
 <li>Participant can view their game details in the "Profile" link given on top right corner.</li>
 <li>All activities on the platform are tracked. Participant using any unethical means will be disqualified.</li>
 <li style="font-weight: 700">Decisions taken by bITeSys team will be Final!!</li>
-<li>Please check bITeSys Instagram page for level hints and clues <a target="blank" href=" https://www.instagram.com/bitesys.iims/" style="color: navy; font-weight: 700; text-decoration: underline;">Instagram</a></li>
+<li>Please check bITeSys Instagram page for level hints and clues <a target="blank" href=" https://www.instagram.com/bitesys.iims/" style="color: white; font-weight: 700; font-size: 18px; text-decoration: underline;">Instagram</a></li>
 </ul>
 
 
