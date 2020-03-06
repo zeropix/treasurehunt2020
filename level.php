@@ -285,7 +285,7 @@ $lvl18->questionImg = array("18_a.jpg","18_b.jpg","18_c.jpg");
 $lvl18->color = "black";*/
 
 $lvl19 = new Level();
-$lvl19->lvlHead = "Level 22: Valley of Images - 12th FLoor";
+$lvl19->lvlHead = "Level 22";
 $lvl19->lvl = "22";
 $lvl19->type = "basic";
 $lvl19->question = "This state (region) which existed for 74 years was formed with the help of an alliance consisting of 2 people, in order to liberate itself from the dominion of another realm that lasted a little over 6 centuries. This state formed a base for the creation of a country which is currently existing and also is relatively new – founded after the first world war. Travel and Tourism is an integral part of this country which is amongst the leading economies. The Prime Minister of this country is closely related to its founder who in turn is related to the founder of the state. Name the state!";
@@ -295,7 +295,7 @@ $lvl19->questionImg = null;
 $lvl19->color = "white";
 
 $lvl20 = new Level();
-$lvl20->lvlHead = "Level 23: Valley of Images - 13th FLoor";
+$lvl20->lvlHead = "Level 23";
 $lvl20->lvl = "23";
 $lvl20->type = "image";
 $lvl20->question ="Find the similarity between these 4 players!";
@@ -305,7 +305,7 @@ $lvl20->questionImg = array("q23.png","q234.png","q232.png","q233.png");
 $lvl20->color = "black";
 
 $lvl21_1 = new Level();
-$lvl21_1->lvlHead = "Level 24: Valley of Images - 13th FLoor";
+$lvl21_1->lvlHead = "Level 24";
 $lvl21_1->lvl = "24";
 $lvl21_1->type = "image";
 $lvl21_1->question = "I am a football player. I am a defender capable of playing in 433 as well as 352 formations. During my tenure in a European club, my club’s captain retired who later took up the role of Vice President of the same club. Within a year of winning the Copa America, I scored in a European competition for a team whose partial logo is given below.
@@ -348,7 +348,7 @@ $lvl22->questionImg =  null;
 $lvl22->color = "white";
 
 $lvl23 = new Level();
-$lvl23->lvlHead = "Level 28: ";
+$lvl23->lvlHead = "Level 28 ";
 $lvl23->lvl = "28";
 $lvl23->type = "basic";
 $lvl23->question = "I’m a cricketer. A part of my name is a famous cartoon character. One of my actions resulted in changing a sport by law. What was the act?";
