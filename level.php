@@ -416,7 +416,7 @@ $lvl30->type = "image";
 $lvl30->question = "Find the link between the numbers:";
 $lvl30->bgImg = "url('assets/img/qbg31.jpg')";
 $lvl30->key = "m a chidambaram stadium";
-$lvl30->questionImg = array("q31.png");
+$lvl30->questionImg = array("q31.PNG");
 $lvl30->color = "white";
 
 /*$lvl30 = new Level();
