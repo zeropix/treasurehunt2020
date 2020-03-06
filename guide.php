@@ -16,6 +16,7 @@
       <div>
       <h3 style="text-align:center">Rules and Guidelines</h3><br>
       <ul style="list-style:circle">
+<li>Multiple registrations from same id will lead to disqualiication</li>
 <li>To ensure proper functioning use chrome or mozilla browser</li>
 <li>Participants can start the game by navigating to "Treasure Hunt" link given on top right corner.</li>
 <li>The game consists of multiple levels.</li>
