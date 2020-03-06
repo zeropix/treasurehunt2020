@@ -412,11 +412,11 @@ $lvl29->filename = "levels/puzzle_lvl.php";*/
 $lvl30 = new Level();
 $lvl30->lvlHead = "Level 31";
 $lvl30->lvl = "31";
-$lvl30->type = "basic";
-$lvl30->question = "I can hide myself by only wearing a cap? Guess the character?";
+$lvl30->type = "image";
+$lvl30->question = "Find the link between the numbers:";
 $lvl30->bgImg = "url('assets/img/qbg31.jpg')";
-$lvl30->key = "joe goldberg";
-$lvl30->questionImg = null;
+$lvl30->key = "m a chidambaram stadium";
+$lvl30->questionImg = array("q31.png");
 $lvl30->color = "white";
 
 /*$lvl30 = new Level();
