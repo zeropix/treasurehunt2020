@@ -412,12 +412,13 @@ $lvl29->filename = "levels/puzzle_lvl.php";*/
 $lvl30 = new Level();
 $lvl30->lvlHead = "Level 31";
 $lvl30->lvl = "31";
-$lvl30->type = "image";
-$lvl30->question = "Find the link between the numbers:";
-$lvl30->bgImg = "url('assets/img/qbg31.jpg')";
-$lvl30->key = "m a chidambaram stadium";
-$lvl30->questionImg = array("q31.PNG");
-$lvl30->color = "white";
+$lvl30->type = "basic";
+$lvl30->question = "The host of this famous talk show divorced her spouse and they have an age difference of 15 years.  Name the show.";
+$lvl30->bgImg = "url('assets/img/whitebg.jpg')";
+$lvl30->key = "the ellen degeneres show";
+$lvl30->questionImg = null;
+$lvl30->color = "black";
+
 
 /*$lvl30 = new Level();
 $lvl30->lvl = "31";
@@ -613,18 +614,7 @@ $lvlaa->bgImg = "url('assets/img/qbg16.jpg')";
 $lvlaa->key = "benson and hedges world championship 1985";
 $lvlaa->questionImg = array("q161.jpeg","q162.jpeg","q163.jpeg","q164.jpeg");
 $lvlaa->color = "white";
-
-
-
-// $lvlaaa = new Level();
-// $lvlaaa->lvlHead = "Level 47";
-// $lvlaaa->lvl = "47";
-// $lvlaaa->type = "image";
-// $lvlaaa->question = "gimlwp pn mfdgsutxamf bxgzlgmwzc<br>cipher";
-// $lvlaaa->bgImg = "url('assets/img/whitebg.jpg')";
-// $lvlaaa->key = "claude elwood shannon";
-// $lvlaaa->questionImg =  array("xxx.jpg");
-// $lvlaaa->color = "black";
+ 
 
 $lvl48 = new Level();
 $lvl48->lvlHead = "Level 47";
@@ -762,12 +752,12 @@ $lvl59->color = "white";
 $lvl60 = new Level();
 $lvl60->lvlHead = "Level 60";
 $lvl60->lvl = "60";
-$lvl60->type = "basic";
-$lvl60->question = 'The host of this famous talk show divorced her spouse and they have an age difference of 15 years.  Name the show.';
-$lvl60->bgImg = "url('assets/img/whitebg.jpg')";
-$lvl60->key = "the ellen degeneres show";
-$lvl60->questionImg = null;
-$lvl60->color = "black";
+$lvl60->type = "image";
+$lvl60->question = 'Find the link between the numbers:';
+$lvl60->bgImg = "url('assets/img/qbg31.jpg')";
+$lvl60->key = "m a chidambaram stadium";
+$lvl60->questionImg = array("q31.PNG");
+$lvl60->color = "white";
 
 $lvl61 = new Level();
 $lvl61->lvl = "61";
