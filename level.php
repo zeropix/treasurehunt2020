@@ -681,11 +681,11 @@ $lvl52->color = "white";
 $lvl53 = new Level();
 $lvl53->lvlHead = "Level 53";
 $lvl53->lvl = "53";
-$lvl53->type = "image";
-$lvl53->question = "Find the connection!";
-$lvl53->bgImg = "url('assets/img/qbg053.jpeg')";
-$lvl53->key = "birds";
-$lvl53->questionImg = array("q0531.png","q0532.png","q0533.png","q0534.png");
+$lvl53->type = "basic";
+$lvl53->question = "X was born after India got its independence and got elected as the 997th leader of a group. X was also a part of an action thriller film directed by a software engineer whose short film has received an award. Name X, the short film and the action thriller.";
+$lvl53->bgImg = "url('assets/img/qbg35.jpg')";
+$lvl53->key = "james ronald gordon copeland mbe kaatchipizhai jagamae thandhiram";
+$lvl53->questionImg = null;
 $lvl53->color = "white";
 
 $lvl54 = new Level();
@@ -701,22 +701,20 @@ $lvl54->color = "black";
 $lvl55 = new Level();
 $lvl55->lvlHead = "Level 55";
 $lvl55->lvl = "55";
-$lvl55->type = "basic";
-$lvl55->question = "X was born after India got its independence and got elected as the 997th leader of a group. X was also a part of an action thriller film directed by a software engineer whose short film has received an award. Name X, the short film and the action thriller.";
-$lvl55->bgImg = "url('assets/img/qbg35.jpg')";
-$lvl55->key = "james ronald gordon copeland mbe kaatchipizhai jagamae thandhiram";
-$lvl55->questionImg = null;
+$lvl55->type = "image";
+$lvl55->question = "Find the connection!";
+$lvl55->bgImg = "url('assets/img/qbg053.jpeg')";
+$lvl55->key = "birds";
+$lvl55->questionImg = array("q0531.png","q0532.png","q0533.png","q0534.png");
 $lvl55->color = "white";
 
 $lvl56 = new Level();
-$lvl56->lvlHead = "Level 56";
 $lvl56->lvl = "56";
-$lvl56->type = "basic";
-$lvl56->question = "Play fair. Honesty is the key to perseverance";
-$lvl56->bgImg = "url('assets/img/qbg20.jpg')";
-$lvl56->key = "qnkzoxsqnwbs";
-$lvl56->questionImg = null;
-$lvl56->color = "white";
+$lvl56->type = "custom";
+$lvl56->bgImg = "url('assets/img/whitebg.jpg')";
+$lvl56->key = "voidimg15img14img13img12img11img10img9img8img7img6img5img4img3img2img1";
+$lvl56->filename = "levels/puzzle_lvl.php";
+
 
 $lvl57 = new Level();
 $lvl57->lvlHead = "Level 57";
@@ -759,12 +757,16 @@ $lvl60->key = "m a chidambaram stadium";
 $lvl60->questionImg = array("q31.PNG");
 $lvl60->color = "white";
 
+
 $lvl61 = new Level();
+$lvl61->lvlHead = "Level 61";
 $lvl61->lvl = "61";
-$lvl61->type = "custom";
-$lvl61->bgImg = "url('assets/img/whitebg.jpg')";
-$lvl61->key = "voidimg15img14img13img12img11img10img9img8img7img6img5img4img3img2img1";
-$lvl61->filename = "levels/puzzle_lvl.php";
+$lvl61->type = "basic";
+$lvl61->question = "Play fair. Honesty is the key to perseverance";
+$lvl61->bgImg = "url('assets/img/qbg20.jpg')";
+$lvl61->key = "qnkzoxsqnwbs";
+$lvl61->questionImg = null;
+$lvl61->color = "white";
 
 $endFinal = new Level();
 $endFinal->lvl = "62";
